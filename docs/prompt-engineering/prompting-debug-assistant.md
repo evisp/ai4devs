@@ -228,63 +228,63 @@ Use this structure for each bug:
 
 === "Generic"
     ```text
-    ## Bug – <filename>
+    Bug – <filename>
 
-    **Prompt**:
+    Prompt:
     (paste your prompt)
 
-    **AI diagnosis**:
+    AI diagnosis:
     (what it claims is wrong)
 
-    **Suggested fix**:
+    Suggested fix:
     (paste or summarize)
 
-    **Risks / side effects**:
+    Risks / side effects:
     (what could break)
 
-    **Tests to verify**:
+    Tests to verify:
     - Test 1:
     - Test 2:
     - Edge case:
 
-    **What I did**:
+    What I did:
     (what you actually changed and why)
 
-    **Result**:
+    Result:
     (pass/fail + evidence)
     ```
 
 === "Example (bug1.py)"
     ```text
-    ## Bug – bug1.py
+    Bug – bug1.py
 
-    **Prompt**:
+    Prompt:
     This function should return the last n items of a list.
     It gives wrong output when n == len(items).
     Identify the root cause, propose the smallest fix, and give tests (including edge cases).
 
-    **AI diagnosis**:
+    AI diagnosis:
     The slice start index subtracts one extra position: len(items) - n - 1.
     When n == len(items), it starts at index -1, so it only returns the last element.
 
-    **Suggested fix**:
+    Suggested fix:
     Change to:
     return items[len(items) - n:]
 
-    **Risks / side effects**:
+    Risks / side effects:
     If n can be negative, behavior should be defined (not handled here).
     If n > len(items), Python slicing is forgiving, but expected behavior should be clarified.
 
-    **Tests to verify**:
+    Tests to verify:
     - items=, n=3 =>[16][17][18][19][20]
     - items=, n=1 =>[17][18][19][20][16]
     - Edge case: items=, n=3 =>[18][16][17]
     - Edge case: items=[], n=0 => []
 
-    **What I did**:
+    What I did:
     Applied the one-line change to the slice start index.
 
-    **Result**:
+    Result:
     PASS — manual checks matched expected output (see fix_validation.md).
     ```
 
@@ -302,7 +302,7 @@ Use this structure for each bug:
 
 === "Example (bug1_fixed.py)"
     ```text
-    ## bug1_fixed.py
+    bug1_fixed.py
 
     - Input: items=[1,2,3,4,5], n=3
     - Expected: [3,4,5]
@@ -319,7 +319,7 @@ Use this structure for each bug:
 
 === "Generic"
     ```text
-    ## Bug Report – <filename>
+    Bug Report – <filename>
 
     - Summary:
     - Steps to reproduce:
@@ -334,7 +334,7 @@ Use this structure for each bug:
 
 === "Example (bug1.py)"
     ```text
-    ## Bug Report – bug1.py
+    Bug Report – bug1.py
 
     - Summary: Off-by-one error in slice start index returns incorrect results at the boundary.
     - Steps to reproduce:
