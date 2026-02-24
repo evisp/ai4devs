@@ -228,7 +228,7 @@ Use this structure for each bug:
 ### Mini template: AI debug log entry
 
 === "Generic"
-    ```md
+    ```text
     ## Bug – <filename>
 
     **Prompt**:
@@ -256,7 +256,7 @@ Use this structure for each bug:
     ```
 
 === "Example (bug1.py)"
-    ```md
+    ```text
     ## Bug – bug1.py
 
     **Prompt**:
@@ -265,12 +265,12 @@ Use this structure for each bug:
     Identify the root cause, propose the smallest fix, and give tests (including edge cases).
 
     **AI diagnosis**:
-    The slice start index subtracts one extra position: `len(items) - n - 1`.
-    When `n == len(items)`, it starts at index `-1`, so it only returns the last element.
+    The slice start index subtracts one extra position: len(items) - n - 1.
+    When n == len(items), it starts at index -1, so it only returns the last element.
 
     **Suggested fix**:
     Change to:
-    `return items[len(items) - n:]`
+    return items[len(items) - n:]
 
     **Risks / side effects**:
     If n can be negative, behavior should be defined (not handled here).
@@ -278,7 +278,7 @@ Use this structure for each bug:
 
     **Tests to verify**:
     - items=[1,2,3,4,5], n=3 => [3,4,5]
-    - items=[1,2,3,4,5], n=1 =>  [github](https://github.com/squidfunk/mkdocs-material/blob/master/docs/reference/content-tabs.md)
+    - items=[1,2,3,4,5], n=1 => [5]
     - Edge case: items=[1,2,3], n=3 => [1,2,3]
     - Edge case: items=[], n=0 => []
 
@@ -292,7 +292,7 @@ Use this structure for each bug:
 ### Mini template: validation entry
 
 === "Generic"
-    ```md
+    ```text
     ## <fixed filename>
 
     - Input:
@@ -302,13 +302,13 @@ Use this structure for each bug:
     ```
 
 === "Example (bug1_fixed.py)"
-    ```md
+    ```text
     ## bug1_fixed.py
 
     - Input: items=[1,2,3,4,5], n=3
     - Expected: [3,4,5]
     - Actual: [3,4,5]
-    - Evidence: `python3 bug1_fixed.py` (prints test outputs)
+    - Evidence: python3 bug1_fixed.py (prints test outputs)
 
     - Input: items=[1,2,3], n=3
     - Expected: [1,2,3]
@@ -319,36 +319,38 @@ Use this structure for each bug:
 ### Mini template: bug report section
 
 === "Generic"
-    ```md
+    ```text
     ## Bug Report – <filename>
 
-    - **Summary**:
-    - **Steps to reproduce**:
+    - Summary:
+    - Steps to reproduce:
       1.
       2.
-    - **Expected vs actual**:
-    - **Root cause**:
-    - **Resolution**:
-    - **Evidence**:
-    - **Lesson learned**:
+    - Expected vs actual:
+    - Root cause:
+    - Resolution:
+    - Evidence:
+    - Lesson learned:
     ```
 
 === "Example (bug1.py)"
-    ```md
+    ```text
     ## Bug Report – bug1.py
 
-    - **Summary**: Off-by-one error in slice start index returns incorrect results at the boundary.
-    - **Steps to reproduce**:
-      1. Run the function with `items=[1,2,3]` and `n=3`.
+    - Summary: Off-by-one error in slice start index returns incorrect results at the boundary.
+    - Steps to reproduce:
+      1. Run the function with items=[1,2,3] and n=3.
       2. Observe the returned value.
-    - **Expected vs actual**:
-      - Expected: `[1,2,3]`
-      - Actual: `[3]`
-    - **Root cause**: The code uses `len(items) - n - 1`, subtracting one extra index. When `n == len(items)`, start becomes `-1`, so slicing returns only the last element.
-    - **Resolution**: Changed slice start to `len(items) - n` (minimal fix).
-    - **Evidence**: Validation cases in `fix_validation.md` pass, including the `n == len(items)` boundary.
-    - **Lesson learned**: Always test boundaries (0, 1, len-1, len) for indexing and slicing logic.
+    - Expected vs actual:
+      - Expected: [1,2,3]
+      - Actual: [3]
+    - Root cause: The code uses len(items) - n - 1, subtracting one extra index. When n == len(items), start becomes -1, so slicing returns only the last element.
+    - Resolution: Changed slice start to len(items) - n (minimal fix).
+    - Evidence: Validation cases in fix_validation.md pass, including the n == len(items) boundary.
+    - Lesson learned: Always test boundaries (0, 1, len-1, len) for indexing and slicing logic.
     ```
+
+
 
 
 
