@@ -29,6 +29,7 @@ Use AI with intention: ask better questions, get better answers, and verify resu
 
 ### Prompting Debug Assistant
 By the end of this project, learners will be able to:
+
 - Prompt AI systems to identify bugs in code snippets.
 - Analyze and explain the root causes of common coding errors.
 - Validate and test AI-suggested fixes.
@@ -37,6 +38,7 @@ By the end of this project, learners will be able to:
 
 ### Prompt Patterns Library
 By the end of this project, learners will be able to:
+
 - Identify recurring use cases for AI-assisted development.
 - Design reusable prompt templates with placeholders for inputs and outputs.
 - Test prompts against sample code or documentation tasks.
