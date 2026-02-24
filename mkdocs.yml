@@ -1,0 +1,114 @@
+site_name: AI4Devs (Holberton School)
+site_url: https://evisp.github.io/ai4devs/
+site_author: Holberton School
+site_description: AI for Developers curriculum materials, tutorials, and project guides.
+
+repo_name: evisp/ai4devs
+repo_url: https://github.com/evisp/ai4devs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.path
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - typeset
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/evisp
+
+copyright: >
+  Copyright © 2026 Holberton School
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Overview: getting-started/index.md
+
+  - Prompt Engineering:
+      - Overview: prompt-engineering/index.md
+      - Prompting Debug Assistant: prompt-engineering/prompting-debug-assistant.md
+      - Prompt Patterns Library: prompt-engineering/prompt-patterns-library.md
+
+  - AI-Assisted Planning:
+      - Overview: ai-assisted-planning/index.md
+      - AI Specification Writer: ai-assisted-planning/ai-specification-writer.md
+      - Architecture Blueprint Assistant: ai-assisted-planning/architecture-blueprint-assistant.md
+
+  - Rapid Prototyping:
+      - Overview: rapid-prototyping/index.md
+      - UI Mockup from Text: rapid-prototyping/ui-mockup-from-text.md
+      - API Prototyper: rapid-prototyping/api-prototyper.md
+
+  - AI-Powered Development:
+      - Overview: ai-powered-development/index.md
+      - Copilot Productivity Sprint: ai-powered-development/copilot-productivity-sprint.md
+      - IDE Workflow Integration: ai-powered-development/ide-workflow-integration.md
+
+  - Code Generation & Analysis:
+      - Overview: code-generation-analysis/index.md
+      - Legacy Code Interpreter: code-generation-analysis/legacy-code-interpreter.md
+      - Multi-Language Code Generator: code-generation-analysis/multi-language-code-generator.md
+
+  - Quality Assurance:
+      - Overview: quality-assurance/index.md
+      - Smart Bug Bounty: quality-assurance/smart-bug-bounty.md
+      - AI Code Review Simulator: quality-assurance/ai-code-review-simulator.md
+
+  - MVP Development:
+      - Overview: mvp-development/index.md
+      - AI-Powered Startup MVP Builder: mvp-development/ai-powered-startup-mvp-builder.md
+      - AI-Enhanced Team Hackathon: mvp-development/ai-enhanced-team-hackathon.md
+
+  - Resources:
+      - Overview: resources/index.md
