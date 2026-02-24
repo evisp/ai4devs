@@ -51,6 +51,12 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+
+  # Enables :material-...: and :octicons-...: shortcodes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true

@@ -9,11 +9,15 @@ Learn to use AI like a software engineer: clear prompts, clear plans, fast proto
 
 - :material-message-processing:{ .lg .middle } __Prompt Engineering__
 
+  ---
+
   Prompt patterns for debugging, clarity, and control.
 
   [:octicons-arrow-right-24: Open block](prompt-engineering/index.md)
 
 - :material-clipboard-text:{ .lg .middle } __AI-Assisted Planning__
+
+  ---
 
   Write specs and architecture plans that teams can build.
 
@@ -21,11 +25,15 @@ Learn to use AI like a software engineer: clear prompts, clear plans, fast proto
 
 - :material-pencil-ruler:{ .lg .middle } __Rapid Prototyping__
 
+  ---
+
   Turn text into UI and API prototypes quickly.
 
   [:octicons-arrow-right-24: Open block](rapid-prototyping/index.md)
 
 - :material-code-braces:{ .lg .middle } __AI-Powered Development__
+
+  ---
 
   Use Copilot and IDE workflows to move faster with discipline.
 
@@ -33,17 +41,23 @@ Learn to use AI like a software engineer: clear prompts, clear plans, fast proto
 
 - :material-file-code:{ .lg .middle } __Code Generation & Analysis__
 
+  ---
+
   Understand legacy code, generate safely, and work across languages.
 
   [:octicons-arrow-right-24: Open block](code-generation-analysis/index.md)
 
 - :material-shield-check:{ .lg .middle } __Quality Assurance__
 
+  ---
+
   Find issues, review code, and improve reliability with AI in the loop.
 
   [:octicons-arrow-right-24: Open block](quality-assurance/index.md)
 
 - :material-rocket-launch:{ .lg .middle } __MVP Development__
+
+  ---
 
   Build and demo a real MVP, then iterate as a team.
 
