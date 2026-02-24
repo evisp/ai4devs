@@ -224,7 +224,6 @@ Use this structure for each bug:
     def last_n(items, n):
         return items[len(items) - n - 1:]
     ```
-
 ### Mini template: AI debug log entry
 
 === "Generic"
@@ -277,9 +276,9 @@ Use this structure for each bug:
     If n > len(items), Python slicing is forgiving, but expected behavior should be clarified.
 
     **Tests to verify**:
-    - items=[1,2,3,4,5], n=3 => [3,4,5]
-    - items=[1,2,3,4,5], n=1 => [5]
-    - Edge case: items=[1,2,3], n=3 => [1,2,3]
+    - items=, n=3 =>[16][17][18][19][20]
+    - items=, n=1 =>[17][18][19][20][16]
+    - Edge case: items=, n=3 =>[18][16][17]
     - Edge case: items=[], n=0 => []
 
     **What I did**:
