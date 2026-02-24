@@ -72,8 +72,6 @@ copyright: >
 
 nav:
   - Home: index.md
-  - Getting started:
-      - Overview: getting-started/index.md
 
   - Prompt Engineering:
       - Overview: prompt-engineering/index.md
@@ -109,6 +107,3 @@ nav:
       - Overview: mvp-development/index.md
       - AI-Powered Startup MVP Builder: mvp-development/ai-powered-startup-mvp-builder.md
       - AI-Enhanced Team Hackathon: mvp-development/ai-enhanced-team-hackathon.md
-
-  - Resources:
-      - Overview: resources/index.md
