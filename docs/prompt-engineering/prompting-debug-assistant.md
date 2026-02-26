@@ -349,10 +349,6 @@ Use this structure for each bug:
     - Lesson learned: Always test boundaries (0, 1, len-1, len) for indexing and slicing logic.
     ```
 
-
-
-
-
 !!! tip
     Keep templates short.
     The goal is clarity and proof, not long writing.

@@ -79,6 +79,12 @@ copyright: >
 nav:
   - Home: index.md
 
+  - Tools:
+    - Overview: zero_day/index.md
+    - Zero day: zero_day/zero-day.md
+    - Git & GitHub: zero_day/git-and-github.md
+    - VS Code setup: zero_day/vscode-setup.md
+
   - Prompt Engineering:
       - Overview: prompt-engineering/index.md
       - Prompting Debug Assistant: prompt-engineering/prompting-debug-assistant.md
