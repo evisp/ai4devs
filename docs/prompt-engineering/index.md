@@ -28,6 +28,7 @@ Use AI with intention: ask better questions, get better answers, and verify resu
 ## Learning objectives
 
 ### Prompting Debug Assistant
+
 By the end of this project, learners will be able to:
 
 - Prompt AI systems to identify bugs in code snippets.
