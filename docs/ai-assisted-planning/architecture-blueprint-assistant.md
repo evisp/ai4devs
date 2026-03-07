@@ -298,7 +298,6 @@ Compare your options side-by-side across real criteria that matter.
 Fill in scores for each architecture, see the clear winner emerge.  
 This format works for any architecture decision, not just monolith vs microservices.
 
-```markdown
 | Criterion          | Monolith | Microservices | Winner    |
 |--------------------|----------|---------------|-----------|
 | Dev Velocity       | Fast     | Slow (start)  | Monolith  |
@@ -306,7 +305,6 @@ This format works for any architecture decision, not just monolith vs microservi
 | Scaling            | Limited  | Excellent     | Micro     |
 | Failure Isolation  | Poor     | Excellent     | Micro     |
 | Team Size Fit      | <10 devs | >20 devs      | Depends   |
-```
 
 ## Do's and Don'ts
 
