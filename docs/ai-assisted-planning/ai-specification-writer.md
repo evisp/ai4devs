@@ -24,27 +24,24 @@ Bad specs lead to wasted time, rework, and arguments about what was "really" mea
 
 ### 1. **No more confusion** 
 Your spec means exactly one thing to everyone who reads it.
+
 - Use concrete examples (JSON shape, not "user data")  
 - Say your assumptions out loud
 - No room for "I thought you meant..."
 
 ### 2. **Nothing falls through cracks**
 Covers everything that matters, not just the happy path.
+
 - What users do + how fast it loads + how it fails
 - Every feature → test cases → error messages
 - Third-party APIs and edge cases included
 
 ### 3. **You can prove it's done**
-No arguing about completion—just facts.
+No arguing about completion-just facts.
+
 - "< 2s load time" not "feels fast"
 - Tests exist for every acceptance criteria  
 - Realistic timeline and team skills checked
-
-
-### To illustrate, let's use...
-
-**CarpoolConnect**  
-Corporate carpooling app that matches employees by commute route/schedule, tracks CO2 savings, and connects with company login systems.
 
 ## Your 4-step workflow to complete specs
 
@@ -72,7 +69,7 @@ These ready-to-use prompts follow the 4-step process above.
 Pick the group for your current task, copy a prompt, fill in your project details, and run it.  
 Each one produces structured output you can refine and ship.
 
-### Group 1 — Analyze & Decompose
+### Group 1 - Analyze & Decompose
 
 Start here with raw ideas or client briefs.  
 These prompts pull out the real requirements and break them into clear user stories everyone can understand.
@@ -125,7 +122,7 @@ These prompts pull out the real requirements and break them into clear user stor
     Output format: Clear sections per persona with concrete examples.
     ```
 
-### Group 2 — Detail (technical specs)
+### Group 2 - Detail (technical specs)
 
 Turn user stories into concrete blueprints.  
 These prompts generate APIs, database designs, and integration plans developers can code from directly.
@@ -181,7 +178,7 @@ These prompts generate APIs, database designs, and integration plans developers 
     Include integration flow description.
     ```
 
-### Group 3 — Validate & Refine
+### Group 3 - Validate & Refine
 
 Your final quality check before sharing specs.  
 These prompts find missing pieces, check if timelines are realistic, and spot risks before they become problems.
@@ -241,7 +238,7 @@ Follow these and your team builds the right thing.
 Break them and you'll fix misunderstandings for weeks.
 
 
-!!! tip "✅ Do's"
+!!! tip "Do's"
     - Use clear, specific language
     - Include concrete examples and schemas
     - Write measurable acceptance criteria
@@ -249,7 +246,7 @@ Break them and you'll fix misunderstandings for weeks.
     - Document assumptions explicitly
     - Validate with stakeholders
 
-!!! warning "❌ Don'ts"
+!!! warning "Don'ts"
     - Write vague requirements ("user-friendly")
     - Skip non-functional requirements
     - Ignore integration complexity
@@ -272,11 +269,11 @@ Break them and you'll fix misunderstandings for weeks.
 Test your spec in 4 steps, from fast to thorough:
 
 1. **One check**: Does it pass the 60-second checklist above?
-2. **Three tests**: Pick 3 acceptance criteria—can you actually test them?  
+2. **Three tests**: Pick 3 acceptance criteria-can you actually test them?  
 3. **Team read**: Can a developer understand without asking questions?
 4. **Edge case audit**: Are all failure scenarios handled?
 
 !!! tip
-    Good specs feel boring—they say exactly what they mean with no room for interpretation.
+    Good specs feel boring-they say exactly what they mean with no room for interpretation.
     
-> "The best writing is writing you don't notice." — Spec writer's golden rule
+> "The best writing is writing you don't notice." - Spec writer's golden rule
