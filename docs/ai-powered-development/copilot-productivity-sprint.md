@@ -63,21 +63,21 @@ You need simple metrics to see whether it actually improved your workflow.
 
 ![Workflow](https://i.imgur.com/EBOLQH4.png)
 
-1. **Define** the benchmark task  
-   - Write a small programming task with clear requirements, inputs, outputs, and quality expectations.
-   - Keep the task realistic and easy to compare.
+### 1. **Define** the benchmark task  
+- Write a small programming task with clear requirements, inputs, outputs, and quality expectations.
+- Keep the task realistic and easy to compare.
 
-2. **Solve** the task manually  
-   - Complete the task without AI support.
-   - Record your time, approach, and final result.
+### 2. **Solve** the task manually  
+- Complete the task without AI support.
+- Record your time, approach, and final result.
 
-3. **Solve** a similar task with AI support  
-   - Use Copilot or another AI coding assistant to help with implementation, explanation, refactoring, or testing.
-   - Record how you used the tool and what changed in your workflow.
+### 3. **Solve** a similar task with AI support  
+- Use Copilot or another AI coding assistant to help with implementation, explanation, refactoring, or testing.
+- Record how you used the tool and what changed in your workflow.
 
-4. **Compare** the two workflows  
-   - Review speed, code quality, number of edits, review effort, and confidence in the result.
-   - Reflect on where AI helped, where it slowed you down, and what you would change next time.
+### 4. **Compare** the two workflows  
+- Review speed, code quality, number of edits, review effort, and confidence in the result.
+- Reflect on where AI helped, where it slowed you down, and what you would change next time.
 
 !!! tip
     Keep the comparison fair.

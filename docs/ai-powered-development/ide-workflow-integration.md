@@ -60,21 +60,21 @@ The real test is not whether the setup looks impressive, but whether it helps yo
 
 ![Workflow](https://i.imgur.com/dLlMip7.png)
 
-1. **Map** the current workflow  
-   - Write down how you currently code, test, debug, review, and document work.
-   - Look for delays, repeated actions, and places where you lose focus.
+### 1. **Map** the current workflow  
+- Write down how you currently code, test, debug, review, and document work.
+- Look for delays, repeated actions, and places where you lose focus.
 
-2. **Configure** the IDE and AI assistant  
-   - Set up the language tools, extensions, shortcuts, and assistant behavior you actually need.
-   - Add useful context such as project conventions, common patterns, and quality expectations.
+### 2. **Configure** the IDE and AI assistant  
+- Set up the language tools, extensions, shortcuts, and assistant behavior you actually need.
+- Add useful context such as project conventions, common patterns, and quality expectations.
 
-3. **Automate** repetitive tasks  
-   - Create small improvements that remove repeated effort.
-   - Focus on testing, formatting, documentation, review preparation, and starter setup.
+### 3. **Automate** repetitive tasks  
+- Create small improvements that remove repeated effort.
+- Focus on testing, formatting, documentation, review preparation, and starter setup.
 
-4. **Measure** and reflect  
-   - Compare the updated workflow with the previous one.
-   - Record what improved, what still feels slow, and what should be changed next.
+### 4. **Measure** and reflect  
+- Compare the updated workflow with the previous one.
+- Record what improved, what still feels slow, and what should be changed next.
 
 !!! tip
     The best IDE workflow is not the most advanced one.
