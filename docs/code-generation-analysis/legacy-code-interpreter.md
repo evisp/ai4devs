@@ -230,7 +230,6 @@ Output:
 - Include a small glossary if domain terms are complex
 ```
 
-
 ## Metrics that are worth recording
 
 
