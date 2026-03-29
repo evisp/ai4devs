@@ -107,6 +107,7 @@ Beyond benchmarks, compare how each language expresses the same logic:
 These prompts are designed for real multi‑language work, not for showing off what the tool can do.  
 Use them as starting points, then adapt them to your language, framework, and test setup.
 
+
 === "Prompt 1 - Algorithm translation"
 
 **Use when:** you want to translate a reference algorithm from one language to another, preserving behavior and optimizing for idioms.
@@ -170,6 +171,7 @@ Output format:
 - 2–3 notes on framework‑specific patterns to watch for
 ```
 
+
 === "Prompt 3 - Performance benchmark translation"
 
 **Use when:** you want to generate equivalent performance benchmarks in another language.
@@ -202,6 +204,7 @@ Output format:
 - 3–5 notes on how to interpret or tune the benchmark in the target language
 ```
 
+
 === "Prompt 4 - Pattern / API translation"
 
 **Use when:** you want to translate a design pattern, API client, or framework‑specific structure into another language.
@@ -233,6 +236,7 @@ Output format:
 - Target‑language implementation
 - 3–5 notes on how this pattern or API is typically expressed in the target ecosystem
 ```
+
 
 ## Metrics that are worth recording
 
