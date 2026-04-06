@@ -15,7 +15,7 @@ Use AI to find, fix, and evaluate code quality—developing rigorous debugging h
 
   [:octicons-arrow-right-24: Open project](smart-bug-bounty.md)
 
-- :material-code-review:{ .lg .middle } **AI Code Review Simulator**
+- :material-code-tags-check:{ .lg .middle } **AI Code Review Simulator**
 
   ---
 
